@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/806.a34e3ac9.chunk.css","mappings":"AAAC,iCACI,cACJ,CAEA,sCACI,cACJ","sources":["components/MovieGallery/MovieGallery.module.css"],"sourcesContent":[" .galleryList {\n     padding: 0 auto;\n }\n\n .galleryList_item {\n     font-size: 18px;\n }"],"names":[],"sourceRoot":""}
