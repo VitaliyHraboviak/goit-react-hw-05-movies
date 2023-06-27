@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import styles from './Searchbar.module.css'
 
 const Searchbar = ({ onSearch }) => {
   const [searchRequest, setSearchRequest] = useState('');
@@ -20,7 +21,7 @@ const Searchbar = ({ onSearch }) => {
 
   return (
     <header>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={styles.formed}>
         <input
           type="text"
           name="searchRequest"
